@@ -1,35 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Basic from './Basic';
+import React from 'react';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-            <h1>FIRST APP</h1>
-            <p>Hello This is my First React app</p>
+            <Basic/>
     </div>
-  );
+  )
 }
 
-function NewApp() {
-    return(
-      <div className="NewApp">
-         <h1>Hello Folks!</h1>
-         <p>MKC biryani</p>
-      </div>
-    )
-}
-
-let myFunc = 
-  {App,NewApp};
-
-export default myFunc;
-
-var name="Adnan";
-
-if (name==='Adnan'){
-  alert("Hello Adnan");
-}
-
-else {
- alert("Who are you?") 
-}
